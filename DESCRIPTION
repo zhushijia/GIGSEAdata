@@ -1,7 +1,7 @@
 Package: GIGSEAdata
 Type: Package
 Title: Gene set collections for the GIGSEA package
-Version: 0.99.2
+Version: 0.99.3
 Author: Shijia Zhu
 Maintainer: Shijia Zhu <shijia.zhu@mssm.edu>
 Description: The gene set collection used for the GIGSEA package. 
