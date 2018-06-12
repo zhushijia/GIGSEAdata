@@ -13,4 +13,4 @@ Suggests: GIGSEA
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-biocViews: ExperimentData,GeneSetEnrichment,SNP,GeneExpression
+biocViews: ExperimentData

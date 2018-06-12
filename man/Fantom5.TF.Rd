@@ -6,10 +6,10 @@
 \title{Fantom5.TF}
 \format{A list with two items:
 \describe{
-  \item{net}{a sparse matrix, the connectivity between terms and genes, 
-  comprising 500 Positional Weight Matrices (PWM) and 21964 genes}
-  \item{annot}{a data frame, description of terms}
-  ...
+    \item{net}{a sparse matrix, the connectivity between terms and genes, 
+    comprising 500 Positional Weight Matrices (PWM) and 21964 genes}
+    \item{annot}{a data frame, description of terms}
+    ...
 }}
 \source{
 \url{http://www.swissregulon.unibas.ch}
