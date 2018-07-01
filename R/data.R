@@ -1,4 +1,4 @@
-#' GO
+#' org.Hs.eg.GO
 #'
 #' Gene sets that contain genes annotated by the same Gene Ontology (GO) term. 
 #' For each GO term, we not only incorporate its own gene sets, but also 
@@ -10,8 +10,8 @@
 #'     \item{annot}{a data frame, description of terms}
 #'     ...
 #' }
-#' @source \url{See the "database GO.db" in R.}
-"GO"
+#' @source \url{See the database "org.Hs.eg.db" and "GO.db" in R.}
+"org.Hs.eg.GO"
 
 
 

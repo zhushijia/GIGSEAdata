@@ -1,3 +1,8 @@
 GIGSEAdata 0.99.1 (2018-06-04)
 ----------------------------
 - Added: GO.rda and Fantom5.TF.rda
+
+GIGSEAdata 0.99.8 (2018-06-30)
+----------------------------
+- Changed: GO.rda to org.Hs.eg.GO.rda
+- Added: vignettes
