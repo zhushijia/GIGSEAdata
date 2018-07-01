@@ -1,7 +1,7 @@
 Package: GIGSEAdata
 Type: Package
 Title: Gene set collections for the GIGSEA package
-Version: 0.99.9
+Version: 0.99.10
 Author: Shijia Zhu
 Maintainer: Shijia Zhu <shijia.zhu@mssm.edu>
 Description: The gene set collection used for the GIGSEA package. 
@@ -9,7 +9,8 @@ License: LGPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5)
-Suggests: GIGSEA
+Suggests: GIGSEA, knitr, rmarkdown
+VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: no
 biocViews: ExperimentData, Homo_sapiens_Data
