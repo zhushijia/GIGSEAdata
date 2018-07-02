@@ -57,19 +57,13 @@ represents the gene, and the column represents the GO term. Each entry takes
 discrete values of 0 or 1, where 1 represents the gene (row) belongs to the 
 GO term (column), and otherwise, not.  
 ```{r}
-# import package
 library(GIGSEAdata)
-# load data
 data(org.Hs.eg.GO)
-# org.Hs.eg.GO is a list comprising two components: net and annot
 class(org.Hs.eg.GO)
 names(org.Hs.eg.GO)
 dim(org.Hs.eg.GO$net)
-# the column is the GO term and the row is the gene
 head(colnames(org.Hs.eg.GO$net))
 head(rownames(org.Hs.eg.GO$net))
-# the annotation of the human GO
 head(org.Hs.eg.GO$annot)
-# the net takes discrete values of 0 or 1
 head(org.Hs.eg.GO$net[,1:30])
 ```
