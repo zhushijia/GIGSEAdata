@@ -6,3 +6,7 @@ GIGSEAdata 0.99.8 (2018-06-30)
 ----------------------------
 - Changed: GO.rda to org.Hs.eg.GO.rda
 - Added: vignettes
+
+GIGSEAdata 0.99.12 (2018-11-17)
+----------------------------
+- Added: TargetScan.miRNA.rda

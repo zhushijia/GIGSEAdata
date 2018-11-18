@@ -45,11 +45,23 @@ database "org.Hs.eg.GO.db" and "GO.db" in R.
 - `Fantom5.TF`: The human transcript promoter locations were obtained from 
 Fantom5. Based on the promoter locations, the tool MotEvo was used to predict 
 the human transcriptional factor (TF) target sites. The dataset contains 500 
-Positional Weight Matrices (PWM) and 21964 genes. For each PWM, there is a list 
-of associated human TFs, ordered by percent identity of TFs known to bind sites 
+Positional Weight Matrices (PWM) and 21964 genes. For each PWM, there is a list
+of associated human TFs, ordered by percent identity of TFs known to bind sites
 of the PWM. The list of associations was checked manually. The entire set of 
 PWMs and mapping to associated TFs is available from the SwissRegulon website
 <http://www.swissregulon.unibas.ch>.
+- `TargetScan.miRNA`: Gene sets of predicted human miRNA target sites were 
+downloaded from TargetScan. TargetScan groups miRNAs that have identical 
+subsequences at positions 2 through 8 of the miRNA, i.e. the 2-7 seed region 
+plus the 8th nucleotide, and provides predictions for each such seed motif. 
+TargetScan covers 87 human miRNA seed motifs in total. It provides a score for 
+each seed motif and each RefSeq transcript, called preferential conservation 
+scoring (aggregate Pct), which shows consistently high performance in various 
+benchmark tests. To obtain a site count associated with each gene, we average 
+the TargetScan Pct scores of all RefSeq transcripts associated with each gene. 
+It comprises 87 miRNA seed motifs and 9861 genes. 
+See <http://www.targetscan.org>.
+
 
 ## 2 Load data of gene sets:
 We first take as an example of the gene set "org.Hs.eg.GO"", where the row
